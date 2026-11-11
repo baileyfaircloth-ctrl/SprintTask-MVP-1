@@ -65,3 +65,12 @@ After launching the app, take screenshots of (1) an empty task list, (2) several
 ## Known limitations / next sprint
 
 No user accounts, collaboration, cloud database, due dates, categories, or automated browser E2E tests. All data stays in one browser. Next sprint: add due dates, filters, and optional account-backed synchronization.
+
+## Sprint 1 Feature Development
+
+This sprint implements the core task management
+features, including creating, editing, completing,
+and deleting tasks.
+
+The application uses MVC architecture to separate
+business logic from the user interface.
