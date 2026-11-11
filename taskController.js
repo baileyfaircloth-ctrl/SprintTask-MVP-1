@@ -1,4 +1,4 @@
-import { renderTasks } from '../views/taskView.js';
+import { renderTasks } from './taskView.js';
 // MVC Controller: coordinates model/service and view without mixing responsibilities.
 export function startTaskController(service) {
   const form = document.querySelector('#task-form'); const input = document.querySelector('#task-title');
