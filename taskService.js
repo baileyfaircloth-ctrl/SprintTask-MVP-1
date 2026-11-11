@@ -1,4 +1,4 @@
-import { createTask, validateTitle } from '../models/task.js';
+import { createTask, validateTitle } from './task.js';
 // Service layer: repository-like abstraction over localStorage.
 export class TaskService {
   constructor(storage, key = 'sprinttask.tasks') { this.storage = storage; this.key = key; }
