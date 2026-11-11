@@ -1,5 +1,5 @@
 import './style.css';
-import { TaskService } from './services/taskService.js';
+'./services/taskService.js';
 import { startTaskController } from './controllers/taskController.js';
 document.querySelector('#app').innerHTML = `
   <main class="shell"><header><div class="eyebrow">SPRINT 1 · MVP</div><h1>SprintTask</h1><p>Keep your day moving, one task at a time.</p></header>
